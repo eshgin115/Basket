@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+#basket1:hover{
+color: white;   
+}
+#basket1 span {
+    color: black;
+}
+header{
+    background-color: green;
+    padding: 20px 0;
+}
+header i{
+    font-size: 25px;
+}
+header span{
+    position: absolute;
+  padding: 3px 5px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 10px;
+  top: -7px;
+    right: 5px;
+}
+.left{
+    position: relative;
+}
+#toaster{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px ;
+    opacity: 0;
+    transition: 0.5s;
+}
